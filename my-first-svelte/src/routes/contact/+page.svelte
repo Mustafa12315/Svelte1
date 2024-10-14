@@ -1,5 +1,4 @@
 <script>
-	import Footer from "../../lib/Footer.svelte";
 import Header from "../../lib/Header.svelte";
 
 
@@ -10,6 +9,3 @@ import Header from "../../lib/Header.svelte";
 <p>
     This is the Contact Page
 </p>
-<Footer>
-
-</Footer>
