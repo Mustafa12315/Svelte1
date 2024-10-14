@@ -24,4 +24,11 @@ export let headingTitle;
     top: 0;
     width: 100%;
     }
+    header {
+        text-align: left;
+        display: flex;
+    }
+    header li{
+        list-style: none;
+    }
 </style>
