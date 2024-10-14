@@ -4,5 +4,5 @@
 </script>
 
 
-<Header />
+<Header headingTitle="Home Page" />
 <Footer />
