@@ -7,28 +7,42 @@ export let headingTitle;
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Contact</a></li>
+            <li><a href="about/">About</a></li>
+            <li><a href="contact/">Contact</a></li>
         </ul>
     </nav>
 </header>
 
 <style>
-    header h1{
-    background-color: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 2px;
-    padding-left: 0%;
-    position: relative;
-    top: 0;
-    width: 100%;
-    }
-    header {
-        text-align: left;
-        display: flex;
-    }
-    header li{
-        list-style: none;
-    }
+     header {
+            background-color: #2c3e50;
+            display: flex;
+            align-items: center;
+            padding: 2px 3px;
+        }
+        header h1 {
+            color: white;
+            flex-grow: 1;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+        }
+        nav ul {
+            display: flex;
+        }
+        nav li {
+            list-style: none;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #34495e;
+            border-radius: 50px;
+        }
 </style>
