@@ -1,3 +1,7 @@
+<script>
+  import Header from "../../../lib/Header.svelte";
+</script>
+<Header headingTitle="News"  />
 <h2>This is an article</h2>
 
 <article>
