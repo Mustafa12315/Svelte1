@@ -1,0 +1,7 @@
+<script>
+	import Game from "../../lib/Game.svelte";
+	import Header from "../../lib/Header.svelte";
+
+</script>
+<Header headingTitle="Game"/>
+<Game />
